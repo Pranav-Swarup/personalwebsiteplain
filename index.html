@@ -823,18 +823,18 @@
         <section id="about">
             <div class="about-container">
                 <div class="profile-photo">
-                    👤
+                     <img src="images/image.png" alt="Profile Photo">
                 </div>
                 <div class="about-text">
                     <h2>About Me</h2>
                     <p>
-                        I'm currently pursuing my integrated bachelor's + master's in Computer Science by research.
+                        I'm currently pursuing my integrated Bachelor's and Master's in Computer Science by research.
                         As a creative person, I enjoy the freedom and sense of empowerment that technology gives me. 
                         My journey in tech has been driven by a desire to solve real-world problems 
                         through code.
                     </p>
                     <p>
-                        When I'm not building stuff, you'll find me with a book, or writing on my blogpage, making music or exploring cool new technologies. 
+                        When I'm not building stuff, you'll find me writing on my blogpage, making music or exploring cool new technologies. 
                         I believe in continuous learning and staying at the forefront of technological innovation.
                     </p>
                 </div>
@@ -919,11 +919,6 @@
             <div class="publications-container">
                 <h2 class="section-header">Publications</h2>
 
-
-                <a href="https://ieeexplore.ieee.org/document/10724704" 
-                    target="_blank" 
-                class="publication-link">
-
                 <div class="publication-item">
                     <h3>Analysis of the Kalman Filter with the MPU6050 Accelerometer and Gyroscope</h3>
                     <div class="venue">IIT Mandi · IEEE · Jun 24, 2024</div>
@@ -934,14 +929,13 @@
                         The improvements studied were implemented on a realistic hardware setup for gesture controlled wheelchairs. 
                         This way, even with noisy measurements, the system was shown to be functional.
                     </div>
+                    <div class="abstract">
+                    <a href="https://ieeexplore.ieee.org/document/10724704"  
+                        target="_blank" 
+                    class="publication-link">Visit Publication</a>
                 </div>
 
-                </a>
-
-                <a href="https://www.igi-global.com/gateway/chapter/363649" 
-                    target="_blank" 
-                class="publication-link">
-
+    
                 <div class="publication-item">
                     <h3>A Comparative Study on Technologies Deployed for Marine Ecosystem Monitoring and Restoration</h3>
                     <div class="venue">IGI Global · Nov 2024</div>
@@ -949,9 +943,12 @@
                         The review includes a study of graph neural networks, visual simultaneous localization and mapping (vSLAM) and the advanced sensors used to obtain better data from our ocean's ecosystems, along with the techniques used to analyse gathered data.
                         A comparative study of various underwater vehicles such as AUVs, ROVs, Crawlers, bio-inspired machines and other vehicles in their spatial and temporal monitoring capabilities. 
                     </div>
+                    <div class="abstract">
+                    <a href="https://www.igi-global.com/gateway/chapter/363649" 
+                    target="_blank" 
+                class="publication-link">Visit Publication</a>
+                    </div>
                 </div>
-
-                </a>
 
             </div>
         </section>
@@ -1008,25 +1005,12 @@
                     </div>
                 </div>
                 <div class="activity-item">
-                    <div class="activity-icon">🤝</div>
-                    <div class="activity-content">
-                        <h3>Open Source Contributions</h3>
-                        <div class="role">Contributor</div>
-                        <p>
-                            Active contributor to various open-source projects, focusing on improving documentation, 
-                            fixing bugs, and implementing new features. Passionate about giving back to the community.
-                        </p>
-                        <a href="https://github.com/pranav" target="_blank" class="activity-link">View GitHub →</a>
-                    </div>
-                </div>
-                <div class="activity-item">
                     <div class="activity-icon">🎨</div>
                     <div class="activity-content">
                         <h3>Creative Coding</h3>
                         <div class="role">Enthusiast</div>
                         <p>
-                            Explore the intersection of art and technology through generative art, interactive 
-                            visualizations, and creative coding projects. Experimenting with p5.js and Processing.
+                            I like to explore the intersection of art and technology and love making personlised UI and utility features.
                         </p>
                     </div>
                 </div>
@@ -1069,7 +1053,7 @@
             if (index < text.length) {
                 terminalText.textContent += text.charAt(index);
                 index++;
-                setTimeout(typeText, 100);
+                setTimeout(typeText, 200);
             } else {
                 setTimeout(() => {
                     gridOverlay.classList.add('active');
